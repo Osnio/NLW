@@ -1,0 +1,17 @@
+//Forma de se declarar um objecto 
+
+const participante ={
+    nome: 'Osnio',
+    email:'osnio@gmail.com',
+    dataInscricao: new Date(2024, 2, 22, 19, 20),
+    dataCheckIn:  new Date(2024, 2, 25, 22, 10)
+}
+
+output
+for(let participante of participantes){
+//faca alguma coisa aqui
+//enquanto tiver pessoas nessa lista
+
+o "let particpiante- e uma variavel que vai guardar apenas um objecto da lista 
+por esta dentro de uma estrutura de repeticao ele vai repetir esse processor ate finalizar a lista"
+} 

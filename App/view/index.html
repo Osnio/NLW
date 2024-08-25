@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../public/css/style.css">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/plugin/relativeTime.js"></script>
+    <script>dayjs.extend(window.dayjs_plugin_relativeTime)</script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/locale/pt-br.js"></script>
+    <script>dayjs.locale('pt-br')</script>
+</head>
+<body>
+    <div class="container">
+        <form onsubmit="adicionarParticipante(event)">
+            <fieldset>
+                <legend>Inscrição</legend>
+                <div class="input-wrapper"> 
+                    <div class="input-wrapper0">
+                        <img src="../../public/assets/img/bx-user.svg" alt="" width="18px">
+                        <input type="text" placeholder="Nome Completo" name="nome" required>
+                    </div>
+                    <div class="input-wrapper1">
+                        <p>@</p>
+                        <input type="email" placeholder="Email" name="email" required >
+                    </div>
+                    <button> REALIZAR INSCRIÇÃO </button>
+                </div>
+                <div class="input-wrapper">
+                    
+                </div>
+            </fieldset>
+        </form>
+        <section class="lista-participantes">
+            <h2>Participantes</h2>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Participante</th>
+                            <th>Data da inscrição</th>
+                            <th>Data do check-in</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+               
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </div>
+    <script src="../../public/Js/script.js"></script>
+
+  
+</body>
+</html>
